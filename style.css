@@ -1,0 +1,37 @@
+/* style.css */
+
+/* Center the button vertically and horizontally */
+#startButton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    font-family: "Times New Roman", Times, serif;
+    cursor: pointer;
+}
+
+#startButton span:nth-child(1) {
+    color: green;
+}
+
+#startButton span:nth-child(2) {
+    color: black;
+}
+
+#startButton span:nth-child(3) {
+    color: red;
+}
+
+#rss-feed p {
+    font-size: 24px;
+    color: green;
+    font-family: "Times New Roman", Times, serif;
+}
+
+#startButton:hover {
+    background-color: #ccc;
+}
